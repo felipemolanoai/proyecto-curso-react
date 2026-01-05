@@ -1,6 +1,6 @@
 function TodoSearch() {
     return (
-        <h1>Buscador</h1>
+        <input placeholder="Buscar tarea" />
     )
 }
 

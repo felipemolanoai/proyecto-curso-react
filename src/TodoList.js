@@ -1,6 +1,9 @@
-function TodoList() {
+
+function TodoList(props) {
     return (
-        <h1>Lista de tareas</h1>
+        <ul>
+            {props.children}
+        </ul>
     )
 }
 

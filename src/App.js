@@ -7,7 +7,7 @@ import { TodoSearch } from './TodoSearch';
 function App() {
   return (
     <div className="App">
-      <TodoCounter />
+      <TodoCounter totalTodos={2} completedTodos={1} />
       <TodoSearch />
 
       <TodoList>
