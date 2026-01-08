@@ -1,8 +1,8 @@
-function TodoItem() {
+function TodoItem({ text, completed }) {
     return (
         <li>
             <p>V</p>
-            <p>Tarea #1</p>
+            <p>{text}</p>
             <p>X</p>
         </li>
     )
