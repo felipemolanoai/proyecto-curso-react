@@ -1,9 +1,13 @@
+import './TodoItem.css'
+
 function TodoItem({ text, completed }) {
     return (
-        <li>
-            <p>V</p>
-            <p>{text}</p>
-            <p>X</p>
+        <li className="todoItemContainer">
+            <p className="todoItemCompleted">
+                <span className={`${completed ? 'Icon-check Icon-check--active' : 'Icon-check'}`}> V</span>
+            </p>
+            <p className={`${completed ? 'TodoItem-p--complete' : ''}`}>{text}</p>
+            <p className="todoItemDelete">X</p>
         </li>
     )
 }
