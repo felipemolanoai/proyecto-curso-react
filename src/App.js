@@ -14,7 +14,7 @@ const defaultTodos = [
 
 function App() {
   return (
-    <div className="App" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', }}>
+    <div className="App" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', margin: '0', padding: '0 16px' }}>
       <TodoCounter completedTodos={1} totalTodos={4} />
       <TodoSearch />
 
